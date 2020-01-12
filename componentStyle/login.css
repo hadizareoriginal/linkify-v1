@@ -1,3 +1,42 @@
-.login {
-  text-align: center;
+#login {
+  padding: 20px;
+  background-image: url("../pics/login-background.png");
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+}
+
+#box {
+  /* text-align: center;
+  display: flex; */
+  width: 50%;
+  margin: 0 auto;
+}
+
+#description {
+  /* position: absolute; */
+  background-color: #ffffff;
+  width: 250px;
+  min-height: 200px;
+  min-width: 200px;
+  overflow: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.164);
+  transition: 0.4s;
+  /* padding: 5px; */
+  /*hide scrollbar in mozilla fire fox*/
+  scrollbar-width: none;
+  box-shadow: 0px 4px 50px rgba(51, 55, 61, 0.1);
 }
